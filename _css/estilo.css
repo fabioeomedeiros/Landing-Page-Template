@@ -1,9 +1,52 @@
 @charset 'UTF-8';
 
-/* :root {} */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Comfortaa&family=Fredoka+One&family=Lobster&family=Open+Sans&family=Oswald&family=Staatliches&display=swap');
 
-/* * {margin: 0px; padding: 0px} */
+/* 
+font-family: 'Acme', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Staatliches', cursive;
+*/
 
-body {
-    background-color: antiquewhite;
+:root {
+    --cor0: #f7f7f7;
+    --cor1: #0f0f0f;
+    --txt1: 'Staatliches', cursive;
+    --txt2: 'Anton', sans-serif;;
+    --txtn: 'Oswald', sans-serif;
+}
+
+* {margin: 0px; padding: 0px}
+
+html {
+    font-family: var(--txtn);
+}
+
+main#container {
+    background-color: var(--cor0);
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+#cabecalho {
+    text-align: center;
+}
+
+#box-img-principal {
+    text-align: center;
+}
+
+#img-principal {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
