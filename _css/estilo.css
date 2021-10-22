@@ -55,8 +55,8 @@ main#container {
 }
 
 #img-principal {
-    width: 200px;
-    height: 200px;
+    max-width: 650px;
+    max-height: 650px;
     border-radius: 50%;
 }
 
