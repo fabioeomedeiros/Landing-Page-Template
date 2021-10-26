@@ -104,6 +104,8 @@ a {
 
 .img-galeria {
     /* background-color: darkblue; */
+    text-align: center;
+    width: 46%;
     position: relative;
     float: left;
     padding: 20px;
