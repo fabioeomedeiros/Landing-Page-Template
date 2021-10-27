@@ -97,6 +97,12 @@ a {
     border: 7px solid #00ff00; 
 }
 
+.compre:hover {
+    background-color: #00FF00;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+    border: 7px solid chartreuse; 
+}
+
 #galeria {
     /* background-color: crimson; */
     padding: 50px;
